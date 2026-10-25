@@ -2,7 +2,7 @@
 
 Aplicativo mobile desenvolvido com **Expo + React Native** como trabalho prático da disciplina de Tópicos Especiais.
 
-O app apresenta o portfólio de Calebe Sousa de Araujo, desenvolvedor Full Stack, em duas telas:
+O app apresenta o portfólio de Cleiton Valemtin, desenvolvedor Back-end Java, em duas telas:
 
 - **Home** — logo, foto de perfil, texto de apresentação, botões "Sobre mim" e "Entre em contato!", switch de visualização e links para as redes sociais (GitHub, LinkedIn, Instagram e Twitch).
 - **Sobre mim** — biografia completa e rodapé com créditos.

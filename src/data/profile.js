@@ -1,18 +1,18 @@
 export const profile = {
   photo: require('../assets/images/perfil.jpg'),
   headline: 'Eleve seu negócio digital a outro nível',
-  headlineHighlight: 'com código de qualidade!',
+  headlineHighlight: 'com um Back-end de qualidade!',
   intro:
-    'Olá! Sou Calebe Sousa de Araujo, desenvolvedor Full Stack com experiência em Angular, Svelte, Node.js e Java. Ajudo empresas e pequenos negócios a tirarem boas ideias do papel com sites e sistemas rápidos e bem construídos. Vamos conversar?',
+    'Olá! Sou Cleiton Valemtin, desenvolvedor Back-end com foco em Java e Spring Boot. Crio APIs REST bem estruturadas para que boas ideias funcionem de verdade por trás das telas. Vamos conversar?',
   about: [
-    'Sou o Calebe Sousa de Araujo, desenvolvedor Full Stack apaixonado por transformar ideias em produtos digitais funcionais e visualmente atraentes. No Front-end, trabalho principalmente com Angular, Svelte, HTML, CSS e JavaScript; no Back-end, com Node.js e Java (Spring Boot).',
-    'Gosto de colaborar de perto com empresas e pequenos negócios, criando desde sites institucionais e landing pages até plataformas completas. Acredito que um bom produto nasce do equilíbrio entre código bem escrito, performance, atenção aos detalhes e uma comunicação clara ao longo de todo o processo.',
-    'Estou sempre buscando evoluir e aprender novas tecnologias, de Docker e AWS a microsserviços e, agora, desenvolvimento mobile com React Native e Expo, como neste app. Se você tem uma ideia e quer transformá-la em algo real, vamos conversar!',
+    'Sou o Cleiton Valemtin, desenvolvedor Back-end apaixonado por construir a parte do software que ninguém vê, mas que faz tudo funcionar. Trabalho principalmente com Java, Spring Boot e APIs REST, cuidando das regras de negócio, da integração entre sistemas e da comunicação com o banco de dados.',
+    'No dia a dia, uso Spring Data JPA e Hibernate para persistência em bancos relacionais como MySQL e PostgreSQL, Maven para gerenciar as dependências e JUnit para os testes. Acredito que um bom back-end nasce do equilíbrio entre código limpo, organização em camadas e atenção à segurança e ao desempenho.',
+    'Estou sempre buscando evoluir, estudando boas práticas, Git, Docker e, agora, como o back-end se conecta a aplicativos mobile feitos com React Native e Expo, como neste app. Se você tem uma ideia e precisa de uma base sólida para ela, vamos conversar!',
   ],
 };
 
 export const socialLinks = [
-  { name: 'GitHub', icon: 'logo-github', url: 'https://github.com/Calebe-Dev' },
+  { name: 'GitHub', icon: 'logo-github', url: 'https://github.com/Cleiton-code' },
   { name: 'Linkedin', icon: 'logo-linkedin', url: 'https://www.linkedin.com' },
   { name: 'Instagram', icon: 'logo-instagram', url: 'https://www.instagram.com' },
   { name: 'Twitch', icon: 'logo-twitch', url: 'https://www.twitch.tv' },
