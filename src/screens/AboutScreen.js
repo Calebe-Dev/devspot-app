@@ -1,27 +1,51 @@
 import { StyleSheet, Text } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { colors } from '../theme/colors';
+import Header from '../components/Header';
+import ProfileImage from '../components/ProfileImage';
+import ScreenContainer from '../components/ScreenContainer';
+import { useTheme } from '../contexts/ThemeContext';
+import { profile } from '../data/profile';
+import { fonts } from '../theme/fonts';
 
-export default function AboutScreen() {
+const profilePhoto = require('../assets/images/perfil.png');
+
+export default function AboutScreen({ navigation }) {
+  const { colors } = useTheme();
+
+  // Na web a tela pode ser aberta direto pelo link /sobre, sem a Home no histórico.
+  function handleBack() {
+    if (navigation.canGoBack()) {
+      navigation.goBack();
+    } else {
+      navigation.replace('Home');
+    }
+  }
+
   return (
-    <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>Sobre mim</Text>
-    </SafeAreaView>
+    <ScreenContainer>
+      <Header onBack={handleBack} />
+      <ProfileImage source={profilePhoto} />
+
+      <Text style={[styles.title, { color: colors.text }]}>Sobre mim</Text>
+      {profile.about.map((paragraph) => (
+        <Text key={paragraph} style={[styles.paragraph, { color: colors.text }]}>
+          {paragraph}
+        </Text>
+      ))}
+    </ScreenContainer>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: colors.background,
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 24,
-  },
   title: {
-    color: colors.text,
-    fontSize: 24,
-    fontWeight: 'bold',
+    fontFamily: fonts.title,
+    fontSize: 22,
+    marginBottom: 20,
+  },
+  paragraph: {
+    fontFamily: fonts.regular,
+    fontSize: 15,
+    lineHeight: 26,
+    marginBottom: 24,
   },
 });
