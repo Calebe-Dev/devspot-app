@@ -7,8 +7,6 @@ import { useTheme } from '../contexts/ThemeContext';
 import { profile } from '../data/profile';
 import { fonts } from '../theme/fonts';
 
-const profilePhoto = require('../assets/images/perfil.png');
-
 export default function AboutScreen({ navigation }) {
   const { colors } = useTheme();
 
@@ -24,7 +22,7 @@ export default function AboutScreen({ navigation }) {
   return (
     <ScreenContainer>
       <Header onBack={handleBack} />
-      <ProfileImage source={profilePhoto} />
+      <ProfileImage source={profile.photo} />
 
       <Text style={[styles.title, { color: colors.text }]}>Sobre mim</Text>
       {profile.about.map((paragraph) => (

@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   },
   imageWrapper: {
     width: '100%',
-    aspectRatio: 158 / 182,
+    aspectRatio: 1,
     borderRadius: 16,
     overflow: 'hidden',
   },

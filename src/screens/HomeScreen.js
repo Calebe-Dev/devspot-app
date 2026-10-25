@@ -10,8 +10,6 @@ import { profile, socialLinks } from '../data/profile';
 import { fonts } from '../theme/fonts';
 import { showAlert } from '../utils/alert';
 
-const profilePhoto = require('../assets/images/perfil.png');
-
 export default function HomeScreen({ navigation }) {
   const { isDark, colors, toggleTheme } = useTheme();
 
@@ -31,7 +29,7 @@ export default function HomeScreen({ navigation }) {
   return (
     <ScreenContainer>
       <Header />
-      <ProfileImage source={profilePhoto} />
+      <ProfileImage source={profile.photo} />
 
       <Text style={[styles.headline, { color: colors.text }]}>
         {profile.headline}{' '}

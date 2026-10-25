@@ -1,4 +1,5 @@
 export const profile = {
+  photo: require('../assets/images/perfil.jpg'),
   headline: 'Eleve seu negócio digital a outro nível',
   headlineHighlight: 'com um Front-end de qualidade!',
   intro:
