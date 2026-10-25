@@ -2,7 +2,7 @@
 
 Aplicativo mobile desenvolvido com **Expo + React Native** como trabalho prático da disciplina de Tópicos Especiais.
 
-O app apresenta o portfólio de Calebe Sousa de Araujo, desenvolvedor Full Stack, em duas telas:
+O app apresenta o portfólio de um desenvolvedor em duas telas (há uma versão para cada integrante da dupla — veja [Versões do app](#versões-do-app)):
 
 - **Home** — logo, foto de perfil, texto de apresentação, botões "Sobre mim" e "Entre em contato!", switch de visualização e links para as redes sociais (GitHub, LinkedIn, Instagram e Twitch).
 - **Sobre mim** — biografia completa e rodapé com créditos.
@@ -14,11 +14,36 @@ O app apresenta o portfólio de Calebe Sousa de Araujo, desenvolvedor Full Stack
 | Calebe Sousa de Araujo | [@Calebe-Dev](https://github.com/Calebe-Dev) |
 | Cleiton Valemtin | [@Cleiton-code](https://github.com/Cleiton-code) |
 
+## Versões do app
+
+O projeto tem duas versões, uma para cada integrante. O código e a estrutura das telas são os mesmos; mudam apenas a foto, os textos de apresentação e o link do GitHub (em `src/data/profile.js`).
+
+| Branch | Perfil |
+| ------ | ------ |
+| [`main`](https://github.com/Calebe-Dev/devspot-app/tree/main) / [`calebe`](https://github.com/Calebe-Dev/devspot-app/tree/calebe) | Calebe Sousa de Araujo — desenvolvedor Full Stack |
+| [`cleiton`](https://github.com/Calebe-Dev/devspot-app/tree/cleiton) | Cleiton Valemtin — desenvolvedor Back-end Java |
+
+Para rodar a versão do Cleiton, basta trocar de branch antes de iniciar o app:
+
+```bash
+git checkout cleiton
+```
+
+> **Observação:** todas as alterações, inclusive as da branch `cleiton`, foram feitas pela mesma máquina. Por isso os commits aparecem no nome de [@Calebe-Dev](https://github.com/Calebe-Dev).
+
 ## Prints das telas
+
+### Versão do Calebe (`main` / `calebe`)
 
 | Home | Sobre mim | Home (tema claro) |
 | :--: | :-------: | :---------------: |
-| <img src="docs/prints/home.png" width="250" alt="Tela Home" /> | <img src="docs/prints/sobre.png" width="250" alt="Tela Sobre mim" /> | <img src="docs/prints/home-claro.png" width="250" alt="Tela Home no tema claro" /> |
+| <img src="docs/prints/home.png" width="250" alt="Tela Home do Calebe" /> | <img src="docs/prints/sobre.png" width="250" alt="Tela Sobre mim do Calebe" /> | <img src="docs/prints/home-claro.png" width="250" alt="Tela Home do Calebe no tema claro" /> |
+
+### Versão do Cleiton (`cleiton`)
+
+| Home | Sobre mim | Home (tema claro) |
+| :--: | :-------: | :---------------: |
+| <img src="docs/prints/cleiton/home.png" width="250" alt="Tela Home do Cleiton" /> | <img src="docs/prints/cleiton/sobre.png" width="250" alt="Tela Sobre mim do Cleiton" /> | <img src="docs/prints/cleiton/home-claro.png" width="250" alt="Tela Home do Cleiton no tema claro" /> |
 
 ## Funcionalidades
 
