@@ -9,9 +9,10 @@ O app apresenta o portfólio de uma desenvolvedora Front-end em duas telas:
 
 ## Integrantes
 
-- Calebe
-- _Integrante 2_
-- _Integrante 3_
+| Nome | GitHub |
+| ---- | ------ |
+| Calebe Sousa de Araujo | [@Calebe-Dev](https://github.com/Calebe-Dev) |
+| Cleiton Valemtin | [@Cleiton-code](https://github.com/Cleiton-code) |
 
 ## Prints das telas
 
@@ -30,7 +31,7 @@ O app apresenta o portfólio de uma desenvolvedora Front-end em duas telas:
 
 ## Sobre a atividade
 
-Trabalho prático em grupo: desenvolver um app mobile com Expo + React Native que reproduza as duas telas do layout fornecido, praticando estruturação de componentes, estilização, navegação entre telas e organização de projeto. Não é preciso copiar cores e fontes exatamente, mas a estrutura, a hierarquia de informação e os elementos das telas devem ser mantidos.
+Trabalho prático em dupla: desenvolver um app mobile com Expo + React Native que reproduza as duas telas do layout fornecido, praticando estruturação de componentes, estilização, navegação entre telas e organização de projeto. Não é preciso copiar cores e fontes exatamente, mas a estrutura, a hierarquia de informação e os elementos das telas devem ser mantidos.
 
 ### Tela 1 – Home
 
@@ -67,7 +68,7 @@ Trabalho prático em grupo: desenvolver um app mobile com Expo + React Native qu
 ### Entrega
 
 - [x] Repositório no GitHub com o projeto completo
-- [ ] README com nome dos integrantes, descrição do app, prints das telas e como rodar o projeto
+- [x] README com nome dos integrantes, descrição do app, prints das telas e como rodar o projeto
 - [ ] Link do repositório enviado na atividade
 
 ## Tecnologias
